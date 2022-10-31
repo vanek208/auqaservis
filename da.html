@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+< lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/components/jquery-ui/jquery-ui.min.css">
+		<title>Document</title>
+	</head>
+
+	<body>
+		<div class="col-md-4">
+			<h4>Фильтр по ценам</h4>
+			<div id="prices-label">5000 - 50000 руб.</div>
+			<br>
+			<input type="hidden" id="min-price" name="min_price" value="5000">
+			<input type="hidden" id="max-price" name="max_price" value="50000">
+			<div id="prices"></div>
+		</div>
+		<div class="col-md-4">
+			'use strict';
+			<script>
+				// Модуль каталога для работы с БД
+				var catalogDB = (function ($) {
+
+					var ui = {
+						$prices: $('#prices'),
+						$pricesLabel: $('#prices-label'),
+						$minPrice: $('#min-price'),
+						$maxPrice: $('#max-price')
+					};
+
+					// Инициализация модуля
+					function init() {
+						_initPrices({
+							minPrice: 5000,
+							maxPrice: 50000
+						});
+					}
+
+					// Изменение диапазона цен
+					function _onSlidePrices(event, elem) {
+						var minPrice = elem.values[0],
+							maxPrice = elem.values[1];
+						ui.$pricesLabel.html(minPrice + ' - ' + maxPrice + ' руб.');
+						ui.$minPrice.val(minPrice);
+						ui.$maxPrice.val(maxPrice);
+					}
+
+					// Инициализация цен с помощью jqueryUI
+					function _initPrices(options) {
+						ui.$prices.slider({
+							range: true,
+							min: options.minPrice,
+							max: options.maxPrice,
+							values: [options.minPrice, options.maxPrice],
+							slide: _onSlidePrices
+						});
+					}
+
+					// Экспортируем наружу
+					return {
+						init: init
+					}
+
+				})(jQuery);
+			</script>
+
+
+	</body>
+	<script src="/components/jquery-ui/jquery-ui.min.js"></script>
+
+	</html>

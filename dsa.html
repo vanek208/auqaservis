@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="open_pop_up">Оcтавить заявку</button>
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+            <div class="pop_up_body" id="pop_up_body">
+                <p>Оставить заявку</p>
+                <form id="form" action="telegram.php" method="post">
+                <div class="text-field">
+                <label class="text-field__label" for="firstname"></label>
+                    <input class="text-field__input" type="text" name="firstname" id="firstname"  placeholder="Имя" required>
+                    <div class="text-field__message"></div>
+                 </div>
+                 <div class="text-field">
+                <label class="text-field__label" for="firstname"></label>
+                    <input class="text-field__input" type="text" name="firstname" id="firstname"  placeholder="Контакты" required>
+                    <div class="text-field__message"></div>
+                 </div>
+                <textarea name="comment" id="textarea" placeholder="Комментарий"></textarea>
+                    <button>Отправить</button>
+                </form>
+                <div class="pop_up_close" id="pop_up_close">&#10006</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const openPopUp = document.getElementById('open_pop_up');
+const closePopUp = document.getElementById('pop_up_close');
+const popUp = document.getElementById('pop_up');
+
+openPopUp.addEventListener('click', function (e) {
+	e.preventDefault();
+	popUp.classList.add('active');
+})
+closePopUp.addEventListener('click', () => {
+	popUp.classList.remove('active');
+})
+    </script>
+</body>
+</html>
