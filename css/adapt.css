@@ -1,0 +1,566 @@
+@media only screen and (max-width:1200px) {
+	.tele {
+		display: flex;
+		margin-left: 15%;
+		color: #000;
+		padding-top: 10px;
+	}
+
+	.ss {
+		padding: 0 20px;
+		list-style: none;
+		font-size: 20px;
+		float: right;
+	}
+
+	.line {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 3px dashed rgb(32, 32, 32);
+		width: 55%;
+		text-align: center;
+		margin-left: 20%;
+	}
+
+	#logo {
+		width: 250px;
+		padding-right: 150px;
+		margin-left: -75px;
+	}
+
+	#ssilki {
+		display: flex;
+		text-align: center;
+		padding: 38px;
+		margin-left: -120px;
+	}
+
+	.uslugi {
+		margin-left: 16%;
+		margin-top: -600px;
+	}
+
+	.zayv {
+		margin-left: 200px;
+	}
+
+	#da {
+
+		margin-left: -300px;
+	}
+
+	.lines {
+		border-bottom: 3px dashed rgb(32, 32, 32);
+		width: 60%;
+		text-align: center;
+		margin-left: 20%;
+		margin-top: 150px;
+	}
+
+	.uslum {
+		margin-left: 500px;
+	}
+
+	.uslum4 {
+		margin-left: 230px;
+	}
+
+	.uslum2 {
+		margin-left: 250px;
+	}
+
+	.uslum5 {
+		margin-left: 40.8%;
+	}
+
+	.uslum6 {
+		margin-left: 46.8%;
+		margin-top: 50px;
+	}
+
+	.line4 {
+		border-bottom: 3px solid rgb(32, 32, 32);
+		width: 20%;
+		text-align: center;
+		margin-left: 5%;
+		margin-top: 30px;
+	}
+
+	.line5 {
+		border-bottom: 3px solid rgb(32, 32, 32);
+		width: 10%;
+		text-align: center;
+		margin-left: 46.5%;
+		margin-top: 30px;
+	}
+
+	#img11 {
+		width: 50px;
+		height: 50px;
+		margin-left: 19%;
+		margin-top: 80px
+	}
+
+	.line3 {
+		border-bottom: 3px solid rgb(32, 32, 32);
+		width: 10%;
+		text-align: center;
+		margin-left: 43.8%;
+		margin-top: 30px;
+	}
+
+	.vnutri {
+		margin-left: 17%;
+		margin-top: 100px;
+	}
+
+	.vnutri2 {
+		margin-left: 53%;
+		margin-top: -410px;
+	}
+
+	.vnutri3 {
+		margin-left: 17%;
+		margin-top: 50px;
+	}
+
+	.vnutri4 {
+		margin-left: 53%;
+		margin-top: -410px;
+	}
+
+	.vnutri5 {
+		margin-left: 17%;
+		margin-top: 50px;
+	}
+
+	.vnutri6 {
+		margin-left: 53%;
+		margin-top: -415px;
+	}
+
+	#img {
+		width: 150px;
+		height: 128px;
+		margin-left: 15%;
+		margin-top: 70px;
+	}
+
+	#bistriy {
+		margin-left: 26%;
+		margin-top: -130px;
+		width: 30%;
+	}
+
+	#img2 {
+		width: 150px;
+		height: 128px;
+		margin-left: 52%;
+		margin-top: -500px;
+	}
+
+	#bistriy2 {
+		margin-left: 65%;
+		margin-top: -150px;
+		width: 20%;
+	}
+
+	#img3 {
+		width: 150px;
+		height: 128px;
+		margin-left: 16%;
+		margin-top: 70px;
+	}
+
+	#img4 {
+		width: 150px;
+		height: 128px;
+		margin-left: 52%;
+	}
+
+	#img5 {
+		width: 150px;
+		height: 128px;
+		margin-left: 17%;
+		margin-top: 70px;
+	}
+
+	#punkt {
+		margin-left: 30%;
+		margin-top: -120px;
+		width: 20%;
+	}
+
+	#punkt2 {
+		margin-left: 65%;
+		margin-top: -130px;
+		width: 20%;
+	}
+
+	#img6 {
+		width: 150px;
+		height: 128px;
+		margin-left: 52%;
+		margin-top: -110px;
+	}
+
+	#img7 {
+		width: 150px;
+		height: 128px;
+		margin-left: 17%;
+		margin-top: 50px;
+	}
+
+	#img9 {
+		width: 240px;
+		height: 100px;
+		margin-left: 41%;
+		margin-top: 50px;
+	}
+
+	.line2 {
+		border-bottom: 3px dashed rgb(32, 32, 32);
+		width: 60%;
+		text-align: center;
+		margin-left: 21%;
+		margin-top: 50px;
+	}
+
+	#img10 {
+		width: 240px;
+		height: 100px;
+		margin-left: 19%;
+		margin-top: 70px;
+	}
+
+	#img8 {
+		width: 150px;
+		height: 128px;
+		margin-left: 52%;
+		margin-top: -150px;
+	}
+
+	#punkt3 {
+		margin-left: 30%;
+		margin-top: -150px;
+		width: 20%;
+	}
+
+	#punkt4 {
+		margin-left: 65%;
+		margin-top: -200px;
+		width: 20%;
+	}
+
+	#bistriy4 {
+		margin-left: 65%;
+		margin-top: -210px;
+		width: 20%;
+	}
+
+	.zvonok {
+		margin-left: 500px;
+		margin-top: 50px;
+	}
+
+	.zayv2 {
+		margin-left: 400px;
+	}
+
+	.zayv3 {
+		margin-left: 600px;
+		margin-top: -125px;
+	}
+
+
+	@media only screen and (max-width:992px) {
+		body {
+			overflow-x: hidden;
+		}
+
+		.tele {
+			display: flex;
+			margin-left: 15%;
+			color: #000;
+			padding-top: 10px;
+		}
+
+		.ss {
+			padding: 0 20px;
+			list-style: none;
+			font-size: 20px;
+			float: right;
+		}
+
+		.line {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-bottom: 3px dashed rgb(32, 32, 32);
+			width: 80%;
+			text-align: center;
+			margin-left: 15%;
+		}
+
+		#logo {
+			width: 250px;
+			padding-right: 150px;
+			margin-left: -75px;
+		}
+
+		#ssilki {
+			display: flex;
+			text-align: center;
+			padding: 38px;
+			margin-left: -120px;
+		}
+
+		.uslugi {
+			margin-left: 14%;
+			margin-top: -600px;
+		}
+
+		.zayv {
+			margin-left: 140px;
+		}
+
+		#da {
+
+			margin-left: -300px;
+		}
+
+		.lines {
+			border-bottom: 3px dashed rgb(32, 32, 32);
+			width: 80%;
+			text-align: center;
+			margin-left: 20%;
+			margin-top: 150px;
+		}
+
+		.uslum {
+			margin-left: 500px;
+		}
+
+		.uslum4 {
+			margin-left: 230px;
+		}
+
+		.uslum2 {
+			margin-left: 250px;
+		}
+
+		.uslum5 {
+			margin-left: 40.8%;
+		}
+
+		.uslum6 {
+			margin-left: 46.8%;
+			margin-top: 50px;
+		}
+
+		.line4 {
+			border-bottom: 3px solid rgb(32, 32, 32);
+			width: 20%;
+			text-align: center;
+			margin-left: 5%;
+			margin-top: 30px;
+		}
+
+		.line5 {
+			border-bottom: 3px solid rgb(32, 32, 32);
+			width: 10%;
+			text-align: center;
+			margin-left: 46.5%;
+			margin-top: 30px;
+		}
+
+		#img11 {
+			width: 50px;
+			height: 50px;
+			margin-left: 19%;
+			margin-top: 80px
+		}
+
+		.line3 {
+			border-bottom: 3px solid rgb(32, 32, 32);
+			width: 10%;
+			text-align: center;
+			margin-left: 53.8%;
+			margin-top: 30px;
+		}
+
+		.vnutri {
+			margin-left: 14%;
+			margin-top: 100px;
+		}
+
+		.vnutri2 {
+			margin-left: 65%;
+			margin-top: -410px;
+		}
+
+		.vnutri3 {
+			margin-left: 14%;
+			margin-top: 50px;
+		}
+
+		.vnutri4 {
+			margin-left: 65%;
+			margin-top: -410px;
+		}
+
+		.vnutri5 {
+			margin-left: 14%;
+			margin-top: 50px;
+		}
+
+		.vnutri6 {
+			margin-left: 65%;
+			margin-top: -415px;
+		}
+
+		#img {
+			width: 150px;
+			height: 128px;
+			margin-left: 12%;
+			margin-top: 70px;
+		}
+
+		#bistriy {
+			margin-left: 26%;
+			margin-top: -130px;
+			width: 30%;
+		}
+
+		#img2 {
+			width: 150px;
+			height: 128px;
+			margin-left: 60%;
+			margin-top: -500px;
+		}
+
+		#bistriy2 {
+			margin-left: 75%;
+			margin-top: -150px;
+			width: 20%;
+		}
+
+		#img3 {
+			width: 150px;
+			height: 128px;
+			margin-left: 12%;
+			margin-top: 70px;
+		}
+
+		#img4 {
+			width: 150px;
+			height: 128px;
+			margin-left: 60%;
+			margin-top: 100px;
+		}
+
+		#img5 {
+			width: 150px;
+			height: 128px;
+			margin-left: 17%;
+			margin-top: 70px;
+		}
+
+		#punkt {
+			margin-left: 30%;
+			margin-top: -120px;
+			width: 20%;
+		}
+
+		#punkt2 {
+			margin-left: 65%;
+			margin-top: -130px;
+			width: 20%;
+		}
+
+		#img6 {
+			width: 150px;
+			height: 128px;
+			margin-left: 52%;
+			margin-top: -110px;
+		}
+
+		#img7 {
+			width: 150px;
+			height: 128px;
+			margin-left: 17%;
+			margin-top: 50px;
+		}
+
+		#img9 {
+			width: 240px;
+			height: 100px;
+			margin-left: 41%;
+			margin-top: 50px;
+		}
+
+		.line2 {
+			border-bottom: 3px dashed rgb(32, 32, 32);
+			width: 80%;
+			text-align: center;
+			margin-left: 21%;
+			margin-top: 50px;
+		}
+
+		#img10 {
+			width: 240px;
+			height: 100px;
+			margin-left: 19%;
+			margin-top: 70px;
+		}
+
+		#img8 {
+			width: 150px;
+			height: 128px;
+			margin-left: 52%;
+			margin-top: -150px;
+		}
+
+		#punkt3 {
+			margin-left: 30%;
+			margin-top: -150px;
+			width: 20%;
+		}
+
+		#punkt4 {
+			margin-left: 65%;
+			margin-top: -200px;
+			width: 20%;
+		}
+
+		#bistriy4 {
+			margin-left: 65%;
+			margin-top: -210px;
+			width: 20%;
+		}
+
+		#bistriy3 {
+			margin-left: 27%;
+			margin-top: -150px;
+			width: 20%;
+		}
+
+		.zvonok {
+			margin-left: 500px;
+			margin-top: 50px;
+		}
+
+		.zayv2 {
+			margin-left: 400px;
+		}
+
+		.zayv3 {
+			margin-left: 600px;
+			margin-top: -125px;
+		}
+	}
+
+	@media only screen and (max-width:768px) {}
+
+	@media only screen and (max-width:480px) {}
+
+	@media only screen and (max-width:320px) {}
